@@ -1,0 +1,125 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes mymove {
+    0% {
+        top: -55px;
+    }
+
+
+    100% {
+        top: 0px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #22396F;
+}
+
+main {
+    background-color: #FFF9AF;
+}
+
+.cabecalho-sobre {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagem-ps5 {
+    height: 300px;
+    border: outset;
+}
+
+.imagem {
+    height: 300px;
+}
+
+.enunciado {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    animation: mymove 1s ease-in forwards;
+    color: #22396F !important;
+}
+
+.anuncio {
+    animation: fadeIn 1500ms ease-in forwards;
+
+}
+
+.anuncio-play5 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    animation: fadeIn 2s ease-in forwards;
+
+}
+
+.anuncio {
+    animation: fadeIn 3s ease-in forwards;
+}
+
+
+.descricao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    padding-left: 25px;
+    border: outset;
+}
+
+.cor-texto-branca {
+    color: white !important;
+}
+
+.lista-pastel {
+
+    background-color: #FFF9AF !important;
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    background-color: #22396F !important;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+html {
+    background-color: #FFF9AF;
+}
+
+.titulo {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    animation: mymove 1s ease-in forwards;
+    color: #22396F !important;
+}
+
+.texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
